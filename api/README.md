@@ -11,9 +11,9 @@
 APP_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000
 SANCTUM_STATEFUL_DOMAINS=localhost:3000
-SESSION_DOMAIN=localhost</code>
+SESSION_DOMAIN=localhost</code><br>
 2.  Open the terminal and run this codes.
 <code>composer install
-php artisan migrate:fresh --seed</code>
+php artisan migrate:fresh --seed</code><br>
 3. To serve, run:
 <code>php artisan serve</code>
