@@ -6,7 +6,7 @@
 - Laravel
 
 ### Instruction:
-1. Add this to .env file 
+1. Add this to .env file
 <code>
 APP_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000
@@ -15,13 +15,10 @@ SESSION_DOMAIN=localhost
 </code>
 
 2.  Open the terminal and run this codes.
-<code>
-composer install
+<code>composer install
 
 php artisan migrate:fresh --seed
 </code>
 
 3. To serve, run:
-<code>
-php artisan serve
-</code>
+<code>php artisan serve</code>
