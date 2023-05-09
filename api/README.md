@@ -7,8 +7,7 @@
 
 ### Instruction:
 1. Add this to .env file 
-<code>
-APP_URL=http://localhost:8000
+<code>APP_URL=http://localhost:8000
 FRONTEND_URL=http://localhost:3000
 SANCTUM_STATEFUL_DOMAINS=localhost:3000
 SESSION_DOMAIN=localhost
